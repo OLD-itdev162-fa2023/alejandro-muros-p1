@@ -1,0 +1,20 @@
+html{
+    background-image: url("space.jpg");
+    padding: 40px 410px 50px 650px;
+    margin: -8px -8px 0 -8px;
+}
+
+h1{
+    text-align: center;
+}
+
+.bg{
+    background-color: aliceblue; 
+    width: 550px;
+    height: 1520px;
+    padding: 10px 30px 10px 30px;
+}
+
+#questions{
+    white-space: pre;
+}

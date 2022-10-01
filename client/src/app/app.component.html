@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app.component.css">
+</head>
+
+<body>
+  <div class="bg">
+    <h1>Star Wars Trivia</h1>
+    
+    <ul>
+      <li id="questions" *ngFor="let triviaGame of TriviaGames">{{triviaGame.question 
+        + " \n\t1) " + triviaGame.answer1 + " \n\t2) " + triviaGame.answer2
+        + " \n\t3) " + triviaGame.answer3 + " \n\t4) " + triviaGame.answer4
+        + " \n\nAnswer: " + triviaGame.correctAnswer + " \n\n"}}</li>
+    </ul>
+  </div>
+</body>
+</html>
